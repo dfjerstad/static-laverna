@@ -1,0 +1,27 @@
+<div class="center-block">
+    <header>
+        <h3>{{_.i18n('Transfer settings')}}</h3>
+    </header>
+
+    <input id="import--settings" class="hide" type="file">
+    <button data-file="#import--settings" id="do-import" type="button" class="btn btn-default btn-block btn--import">
+        <i class="icon-cog"></i> {{ _.i18n('Import settings') }}
+    </button>
+    <button id="export--settings" type="button" class="btn btn-default btn-block">
+        <i class="icon-cog"></i> {{ _.i18n('Export settings') }}
+    </button>
+</div>
+
+<div class="center-block">
+    <header>
+        <h3>{{_.i18n('Transfer everything')}}</h3>
+    </header>
+
+    <input id="import--data" class="hide" type="file">
+    <button data-file="#import--data" type="button" class="btn btn-default btn-block btn--import">
+        <i class="icon-note"></i> {{ _.i18n('Import data') }}
+    </button>
+    <button id="export--data" type="button" class="btn btn-default btn-block">
+        <i class="icon-note"></i> {{ _.i18n('Export data') }}
+    </button>
+</div>

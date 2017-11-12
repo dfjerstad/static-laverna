@@ -1,4 +1,4 @@
-{
+﻿{
     "en" : "Engleski",
     "ru" : "Ruski",
     "nl" : "Holandski",
@@ -13,7 +13,7 @@
     "nn": "Norveški (Nynorsk)",
     "Search": "Pretraži",
     "All notes": "Sve bilješke",
-    "Favourites": "Omiljene",
+    "Favorites": "Omiljene",
     "Favorite": "Stavi u omiljene",
     "Trash": "Smeće",
     "Notebooks": "Bilježnice",
